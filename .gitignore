@@ -71,7 +71,8 @@ Intermediate/*
  
 # Cache files for the editor to use
 DerivedDataCache/*
- 
+Content/MainFolder/Cars/car_concept/car3.uasset
+Content/LPGenericPropsSet06/Maps/Showcase_BuiltData.uasset
 ThirdParty/*
 
 # Mac Artifacts
