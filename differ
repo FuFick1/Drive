@@ -1,0 +1,47 @@
+origin/two_version is not a valid attribute name: .gitattributes:5
+origin/two_version is not a valid attribute name: .gitattributes:5
+[1mdiff --cc .gitattributes[m
+[1mindex ea544b2,f9a9889..0000000[m
+[1m--- a/.gitattributes[m
+[1m+++ b/.gitattributes[m
+[36m@@@ -1,1 -1,2 +1,5 @@@[m
+  *.psd filter=lfs diff=lfs merge=lfs -text[m
+[32m++<<<<<<< HEAD[m
+[32m++=======[m
+[32m+ *.uasset filter=lfs diff=lfs merge=lfs -text[m
+[32m++>>>>>>> origin/two_version[m
+[1mdiff --cc Content/MainFolder/Cars/Supra/SkeletMesh/sketchfab_Supra-body.uasset[m
+[1mindex 99851da,d52438c..0000000[m
+Binary files differ
+[1mdiff --cc Content/MainFolder/Cars/Supra/SkeletMesh/sketchfab_Surpa-Wheel_Bk_L.uasset[m
+[1mindex 42f5bfb,f0115cf..0000000[m
+Binary files differ
+[1mdiff --cc Content/MainFolder/Cars/Supra/SkeletMesh/sketchfab_Surpa-Wheel_Bk_R.uasset[m
+[1mindex 4df33fa,fc30a09..0000000[m
+Binary files differ
+[1mdiff --cc Content/MainFolder/Cars/Supra/SkeletMesh/sketchfab_Surpa-Wheel_Ft_L.uasset[m
+[1mindex fc3e038,ff2bbeb..0000000[m
+Binary files differ
+[1mdiff --cc Content/MainFolder/Cars/Supra/SkeletMesh/sketchfab_Surpa-Wheel_Ft_R.uasset[m
+[1mindex 5e71b1f,edffc33..0000000[m
+Binary files differ
+[1mdiff --cc Content/MainFolder/GamemodDrive.uasset[m
+[1mindex 63372d4,9bef310..0000000[m
+Binary files differ
+[1mdiff --cc Content/MainFolder/Worlds/main.umap[m
+[1mindex 9f6afbe,749af9c..0000000[m
+Binary files differ
+[1mdiff --cc Content/MainFolder/Worlds/main_BuiltData.uasset[m
+[1mindex 307075b,ee5232f..0000000[m
+Binary files differ
+[1mdiff --cc Content/VehicleVarietyPack/Textures/Pickup/TX_Pickup_Interior_ORM.uasset[m
+[1mindex e0594ae,3b6fa03..0000000[m
+Binary files differ
+* Unmerged path Content/MainFolder/Cars/Supra/Supra_BP.uasset
+* Unmerged path Content/VehicleBP/Blueprints/VehicleGameMode.uasset
+* Unmerged path Content/VehicleBP/Blueprints/VehicleHUD.uasset
+* Unmerged path Content/VehicleBP/Sedan/Sedan.uasset
+* Unmerged path Content/VehicleBP/Sedan/Sedan_BackWheel.uasset
+* Unmerged path Content/VehicleBP/Sedan/Sedan_FrontWheel.uasset
+* Unmerged path Content/VehicleBP/Tutorial/VehicleBlueprintDetail.uasset
+* Unmerged path Content/VehicleBP/VehicleOverview.uasset
